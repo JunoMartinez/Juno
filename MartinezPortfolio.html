@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="CSSStyle.css">
+    <script src="https://kit.fontawesome.com/f0dbe8555e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+    <div id ="header">
+    <div class = "container">
+        
+        <nav>
+            <ul>
+
+                <li><a href = "#header">Home</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#services">Services & Works</a></li>
+                <li><a href = "#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        
+        </div>
+    </div>
+    
+<!-------------------------About me------------------------>  
+    <div id = "about">
+    <div class = "container">
+        
+        <div class="row">
+        <div class="portfolio-col-1">
+            <img src= "images/user.jpg">
+        </div>
+        <div class="portfolio-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p> Hi there! I'm an eclectic individual by the name of Juno Andre A. Martinez, and I love sports, technology, and continuous education. In the field of information technology (IT), I thrive on technology's dynamic nature and am always looking for fresh approaches to challenging issues.</p>
+            
+            <div class="tab-titles" >
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>Technical Skills</span><br>Proficient in diverse technical skills, encompassing coding, design, and analysis.</li>
+                <li><span>Web Development</span><br>Web App Development</li>
+                <li><span>App Development</span><br>Building Android apps</li>
+                </ul>
+            </div>
+            
+            <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2016-2019</span><br>Customer Service Representative, Concentrix, UP Ayala Land Technohub, Quezon City</li>
+                <li><span>2019-2020</span><br>Chat Support Representative, Afni Philippines, Felicity Center Commonwealth, Quezon City</li>
+                <li><span>2020-2021</span><br>Technical Support Representative, 24/7 Intouch, Diliman, Quezon City</li>
+                </ul>
+            </div>
+            
+            <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2014-2015</span><br>STI College of Caloocan</li>
+                <li><span>2013-2014</span><br>University of Manila</li>
+                <li><span>2009-2013</span><br>St. Mary's D' Queen College</li>
+                <li><span>2002-2009</span><br>Dr. A. Albert Elementary School</li>
+                </ul>
+            </div>
+            
+        </div>
+        </div>
+        </div>
+    </div>
+    <!--------------------------Services-------------------------->
+    <div id="services">
+    <div class ="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class ="services-list">
+            <div>
+        <i class="fa-solid fa-globe"></i>
+        <h2>Web Design</h2>
+            <p>
+Skilled web designer adept at crafting professional, user-friendly business websites, maximizing functionality, and enhancing brand presence for optimal customer engagement.</p>
+            <a href="#">Learn more</a>
+            </div>
+            
+            <div>
+        <i class="fa-solid fa-gamepad"></i>
+        <h2>Game Developer</h2>
+            <p>
+Innovative game developer crafting immersive simulation experiences, blending realism and creativity for captivating gameplay and engaging storytelling.</p>
+            <a href="#">Learn more</a>
+            </div>
+            
+            <div>
+        <i class="fa-solid fa-mobile-screen-button"></i>
+        <h2>Application Developer</h2>
+            <p>
+Expert mobile app developer crafting seamless e-commerce experiences, blending technical prowess with market understanding for optimal user engagement and sales.</p>
+            <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+        </div>
+    </div>
+
+<!------------------------------------Portfolio------------->
+    
+    <div id="portfolio">
+     <div class ="container">
+        <h1 class = "sub-title">My Works</h1>
+         
+        <div class="work-list">
+         <div class = "work">
+            <img src ="images/web.png">
+             
+             <div class ="layer">             
+             <h3>My Portfolio</h3>
+                 <p>Showcase your talents elegantly with our sleek portfolio website, highlighting your best work for potential clients and employers to see.</p>
+                 <a href='#'><i class="fa-solid fa-link"></i></a>
+             </div>
+             
+            </div>
+            <div class = "work">
+            <img src ="images/app.png">
+                <div class ="layer">             
+             <h3>Educational App</h3>
+                 <p>Comprehensive education app offering interactive lessons, quizzes, and resources across various subjects, fostering learning anytime, anywhere, for all ages.</p>
+                 <a href='#'><i class="fa-solid fa-link"></i></a>
+             </div>
+            </div>
+            
+            
+            <div class = "work">
+            <img src ="images/game.png">
+                <div class ="layer">             
+             <h3>3D Game Development</h3>
+                 <p>An immersive 3D adventure in development, blending captivating storytelling, stunning visuals, and dynamic gameplay for an unforgettable gaming experience.</p>
+                 <a href='#'><i class="fa-solid fa-link"></i></a>
+             </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    
+<!------------------Contact------------->
+    <div id="contact">
+        <div class="container">
+        <div class="row">
+            <div class= "contact-left">
+            <h1 class ="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-arrow-up-right-from-square"></i>martinezjunoandre@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i>0123456789</p>
+            
+            <div class="social-icons">
+            <a href="https://www.facebook.com/XianneZenitram"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://discord.com/channels/@me"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://www.m.me/XianneZenitram"><i class="fa-brands fa-facebook-messenger"></i></a>
+            </div>
+            </div>
+            <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class= "contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input tyoe="email" name="email" placeholder="Your Email" required>
+                <textarea name = "Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+            </div>
+        </div>
+        <div class="copyright">
+        <p>Copyright © Juno</p>
+        </div>
+    </div>
+<!------------------------------------tabs------------->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");  
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+            
+        } 
+
+    </script>
+    
+</body>
+</html>
